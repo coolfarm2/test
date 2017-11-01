@@ -29,10 +29,6 @@ public partial class MasterPage : System.Web.UI.MasterPage
 
     }
 
-
-
-
-
     private void Load_page(string Cust_id)
     {
         SqlConnection con = new SqlConnection(ConfigurationManager.AppSettings["HbDbConnection"]);
